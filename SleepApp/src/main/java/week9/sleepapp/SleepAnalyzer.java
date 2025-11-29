@@ -17,7 +17,8 @@ public class SleepAnalyzer {
     public SleepAnalyzer() {
 
     }
-
+    
+    //calculating average sleep for the 7 days of the week
     public void calcAvSleep(ArrayList<SleepInput> weeklySleep) {
         double total = 0;
 

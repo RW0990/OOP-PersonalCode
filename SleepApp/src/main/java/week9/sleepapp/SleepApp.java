@@ -15,7 +15,8 @@ public class SleepApp {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ArrayList<SleepInput> weeklySleep = new ArrayList<>();
-
+        
+        //creating an arraylist of the days of the week
         String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         System.out.println("Hi there welcome to your average sleep calculator!");
         System.out.println("The average person sleeps between 49 and 63 hours per week");

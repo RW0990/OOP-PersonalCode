@@ -14,7 +14,8 @@ public class SleepFeedback {
 
     public SleepFeedback(SleepAnalyzer analyzer) {
         double avg = analyzer.getAverageSleep();
-
+        
+        //creating feedback for the user based on hours of sleep
         if (avg > 7) {
             feedback = "Your average sleep duration is good";
         } else if (avg > 9) {
